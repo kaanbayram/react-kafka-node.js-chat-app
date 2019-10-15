@@ -1,0 +1,9 @@
+export const GET_MESSAGE = 'GET_MESSAGE';
+export const POST_MESSAGE = 'POST_MESSAGE';
+export const POST_TOPIC = 'POST_TOPIC';
+export const SET_TOPIC = 'SET_TOPIC';
+export const CREATE_TOPIC = 'CREATE_TOPIC';
+export const GET_TOPICS = 'GET_TOPICS';
+export const SET_VIEW = 'SET_VIEW';
+export const SET_NICKNAME = 'SET_NICKNAME';
+export const SET_VIEW2='SET_VIEW2';

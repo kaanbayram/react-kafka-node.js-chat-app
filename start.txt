@@ -1,0 +1,13 @@
+zk.Server.sh start
+
+Kafka-Server-start.bat ..\..\config\Server.properties
+
+kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic topic1
+
+kafka-console-producer.bat --broker-list localhost:9092 --topic topicname
+
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic sampleTopic --from-beginning
+
+kafka-topics.bat --list --zookeeper localhost:2181
+
+kafka-topics.bat --delete --zookeeper localhost:2181 --topic topic1
