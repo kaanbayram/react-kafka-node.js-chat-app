@@ -1,9 +1,5 @@
-# react_kafka_chat_app
+# Kafka Chat App
 
-1. Start Zookeeper
+<p>In this app, Kafka implemented to node.js backend and with socket.io and React front-end created experimental chat app.</p>
 
-2. Start Apache-Kafka
-
-3.Start Server
-
-4.Start Client
+<p>Before the run front-end and backend, firstly <strong>Zookeeper</strong> and after then <strong>Apache Kafka</strong> Server should start.</p>
